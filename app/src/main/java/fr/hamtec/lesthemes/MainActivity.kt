@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import fr.hamtec.lesthemes.composables.MyCompFont
 import fr.hamtec.lesthemes.ui.theme.LesThemesTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,9 +20,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             LesThemesTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    MyCompFont()
 
-                }
             }
         }
     }
