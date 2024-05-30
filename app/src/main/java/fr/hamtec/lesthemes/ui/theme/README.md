@@ -43,8 +43,8 @@ val replyShapes = Shapes(
 )
 ```
 
-<p>Après avoir défini votre Shapes, vous pouvez le transmettre au <i>MaterialTheme M3</i><br>
-Pour thématiser le contenu de votre application, définissez le jeu de couleurs, la typographie et les formes spécifiques à votre application dans le fichier **Theme.kt**.</p>
+Après avoir défini votre Shapes, vous pouvez le transmettre au <i>MaterialTheme M3</i><br>
+Pour thématiser le contenu de votre application, définissez le jeu de couleurs, la typographie et les formes spécifiques à votre application dans le fichier **Theme.kt**.
 
 ```
 MaterialTheme(
