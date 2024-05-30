@@ -1,6 +1,7 @@
 ## ui.theme
 
 Fichier MyTypography<br>
+Échelle typographique par défaut pour Material Design 3<br>
 
 |M3 |Taille de police/Hauteur de ligne par défaut|
 | --- | --- |
@@ -41,8 +42,10 @@ val replyShapes = Shapes(
     extraLarge = RoundedCornerShape(24.dp)
 )
 ```
-Après avoir défini votre Shapes, vous pouvez le transmettre au MaterialTheme M3<br>
-Pour thématiser le contenu de votre application, définissez le jeu de couleurs, la typographie et les formes spécifiques à votre application dans le fichier Theme.kt.
+
+<p>Après avoir défini votre Shapes, vous pouvez le transmettre au <i>MaterialTheme M3</i><br>
+Pour thématiser le contenu de votre application, définissez le jeu de couleurs, la typographie et les formes spécifiques à votre application dans le fichier Theme.kt.</p>
+
 ```
 MaterialTheme(
     colorScheme = 
